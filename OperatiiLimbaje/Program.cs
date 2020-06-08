@@ -3,17 +3,12 @@ using OperatiiLimbaje.Exceptions;
 using OperatiiLimbaje.Implementations;
 using OperatiiLimbaje.Models;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OperatiiLimbaje
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             IAutomatReader automatReader = new AutomatFileReader();
 
